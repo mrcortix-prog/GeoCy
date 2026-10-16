@@ -66,8 +66,10 @@ a:hover, a:active {
 
 p {
     text-indent: 2em;
+    color: rgb(22, 22, 76);
 }
 
 h2 {
     text-indent: 0.5em;
+    color: rgb(22, 22, 76);
 }
