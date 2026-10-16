@@ -25,3 +25,37 @@
 body {
   font-family: "JetBrains Mono", monospace;
 }
+
+/* a.link:visited {color: #2A7B9B;}
+a.link:hover {text-decoration:underline;}
+
+a {
+    text-decoration: none;
+} */
+
+ul {
+  list-style-type: none;
+}
+
+a:link, a:visited {
+  background-color: #2A7B9B;
+  border-radius: 5px;
+  color: white;
+  padding: 0.1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: rgba(255, 255, 255, 0);
+  color: #2A7B9B;
+}
+
+p {
+    text-indent: 2em;
+}
+
+h2 {
+    text-indent: 0.5em;
+}
