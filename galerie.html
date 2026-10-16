@@ -2,8 +2,21 @@
 <html lang="fr">
     <head>
         <style>
-            body {
-                background-image: linear-gradient(90deg, #EAF3F8 , #F5F0E6);
+            body::before {
+                content: "";
+                position: fixed;
+                inset: 0;
+                z-index: -1;
+                background-image: url("images/carrousel_geocy.png");
+                background-size: cover;
+                background-position: center top;
+                background-repeat: no-repeat;
+            }
+
+            @media (orientation: portrait) {
+                body::before {
+                background-image: url("images/carrousel_geocy.png");
+                }
             }
         </style>
         <meta charset="UTF-8">
