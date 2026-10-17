@@ -32,7 +32,10 @@ a.link:hover {text-decoration:underline;}
 a {
     text-decoration: none;
 } */
-
+.logo {
+  width: clamp(100px, 20w, 200px);
+  height: auto;
+}
 ul {
   list-style-type: none;
 }
