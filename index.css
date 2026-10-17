@@ -16,7 +16,7 @@
 
 .header img {
     display: block;
-    width: clamp(80px, 12vw, 180px);
+    width: clamp(50px, 10vw, 130px);
     height: auto;
     object-fit: contain;
     flex-shrink: 0;
