@@ -31,11 +31,7 @@ a.link:hover {text-decoration:underline;}
 
 a {
     text-decoration: none;
-} */
-
-ul {
-  list-style-type: none;
-}
+} 
 
 a:link, a:visited {
   background-color: #2A7B9B;
@@ -50,6 +46,15 @@ a:link, a:visited {
 a:hover, a:active {
   background-color: rgba(255, 255, 255, 0);
   color: #2A7B9B;
+}*/
+
+ul {
+  list-style-type: none;
+}
+
+a.link img {
+  width: auto;
+  height: clamp(25px, 1vw, 130px);
 }
 
 p {
