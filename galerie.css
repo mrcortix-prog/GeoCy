@@ -59,6 +59,7 @@ a:link, a:visited {
   display: inline-block;
 }
 
+
 a:hover, a:active {
   background-color: rgba(255, 255, 255, 0);
   color: #2A7B9B;
@@ -75,6 +76,16 @@ h2 {
 }
 
 img {
-     width: 400px; 
-     height: 300px;
+    width: 400px; 
+    height: 300px;
+}
+
+summary {
+    display: list-item;
+}
+
+summary h2 {
+    cursor: pointer;
+    display: inline;
+    margin: 0;
 }
