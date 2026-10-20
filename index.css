@@ -24,6 +24,50 @@
 
 body {
   font-family: "JetBrains Mono", monospace;
+  margin: 0;
+}
+
+.ma-bande {
+  width: 100%;
+  height: clamp(25px, 5vw, 40px);
+  margin-top: 10px;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  border-top: 5px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 5px solid rgba(255, 255, 255, 0.2);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  min-height: 100px;
+}
+
+
+.logos a {
+  display: flex;
+  align-items: center;
+}
+
+.logos img {
+  display: block;
+  height: 70px;
+  width: auto;
+  object-fit: contain;
 }
 
 /* a.link:visited {color: #2A7B9B;}
@@ -52,13 +96,18 @@ ul {
   list-style-type: none;
 }
 
+a:hover img {
+  transform: scale(1.15); /* 1.05 = agrandissement de 5% */
+}
 a.link img {
   width: auto;
   height: clamp(25px, 5vw, 40px);
+  transition: transform 0.3s ease;
 }
 
 a.link {
   margin: auto 2vw;
+  text-align: center;
 }
 
 .center {
@@ -73,4 +122,24 @@ p {
 h2 {
     text-indent: 0.5em;
     color: rgb(22, 22, 76);
+}
+
+.link {
+    text-decoration: none;
+    color: #2A7B9B;
+}
+
+a:hover p{
+  transform: scale(1.2); /* Increases size by 20% */
+
+}
+
+a.link p {
+  color: #2A7B9B;
+  display: inline-block;
+  margin: 0;
+  text-indent: 0;
+  text-align: center;
+  transform-origin: center;
+  transition: transform 0.3s ease;
 }
